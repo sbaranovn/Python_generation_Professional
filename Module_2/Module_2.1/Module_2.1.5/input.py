@@ -1,5 +1,9 @@
 # INPUT DATA:
 
+def hide_card(card):
+    card = card.replace(' ', '')
+    
+    return '*' * 8 + card[-4:]
 # TEST_1:
 card = '1234567890123456'
 

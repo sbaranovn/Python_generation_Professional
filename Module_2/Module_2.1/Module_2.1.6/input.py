@@ -1,5 +1,8 @@
 # INPUT DATA:
 
+def same_parity(numbers):
+    return [ el for el in numbers if el % 2 == numbers[0] % 2]
+
 # TEST_1:
 print(same_parity([]))
 

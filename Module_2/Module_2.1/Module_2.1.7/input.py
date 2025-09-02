@@ -1,5 +1,8 @@
 # INPUT DATA:
 
+def is_valid(string):
+    return all([(4 <= len(string) <= 6),  (string.isdigit())]    )
+
 # TEST_1:
 print(is_valid('4367'))
 

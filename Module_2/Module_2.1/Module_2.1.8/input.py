@@ -1,5 +1,10 @@
 # INPUT DATA:
+def print_given(*args):
 
+    print( type(el) for el in args)
+
+    
+    
 # TEST_1:
 print_given(1, [1, 2, 3], 'three', two=2)
 
